@@ -1,0 +1,710 @@
+CaseID,weight_pop,ppage,ppgender,ppethm,ppeducat,ppinc7,ppmsacat,ppreg4,ppemploy,D1G,B10
+188,19493.8887,44,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,6
+207,28220.6405,25,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Full-time,8
+225,15092.0511,47,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,7
+246,35768.9177,22,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Not working,Full-time,9
+262,6995.186,43,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,7
+283,33949.8607,20,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Not working,Full-time,5
+321,21369.1931,25,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Not working,Full-time,8
+334,38224.6514,64,Male,Hispanic,No high school diploma or GED,"$10,000 to $24,999",Metro,Northeast,Working part-time,Part-time,5
+383,15501.4887,29,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working part-time,Part-time,8
+441,29392.9448,26,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Not working,Part-time,5
+447,25685.9139,55,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,9
+453,6957.7528,31,Female,Other,Some college or Associate's degree,"$10,000 to $24,999",Non-Metro,Midwest,Working part-time,Full-time,5
+455,12570.0952,44,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Midwest,Working full-time,Full-time,4
+482,26472.4545,20,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,South,Not working,Full-time,5
+516,21369.1931,29,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Full-time,8
+548,21493.2073,52,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,7
+551,15973.3754,51,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Northeast,Not working,Full-time,5
+575,23515.4649,19,Male,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working part-time,Full-time,9
+606,14457.3579,60,Male,Hispanic,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working part-time,Part-time,5
+730,36673.3913,40,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Not working,Part-time,9
+831,23897.4806,31,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Not working,Full-time,5
+1111,16562.8515,55,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Midwest,Working part-time,Full-time,7
+1218,36673.3913,41,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Not working,Full-time,2
+1228,13431.1949,42,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,8
+1259,6197.1492,50,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Full-time,5
+1423,21862.8325,43,Male,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,1
+1426,15091.212,72,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,West,Working part-time,Part-time,8
+1570,20587.6738,39,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,4
+1762,22434.1358,33,Female,Black,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working full-time,Part-time,0
+1784,24044.6057,29,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,5
+1793,22482.9052,35,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,7
+1862,27371.7683,27,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,5
+1917,16864.8504,40,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,4
+1940,19192.1844,26,Female,Hispanic,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,4
+1956,21057.7269,34,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Part-time,8
+1992,17767.7929,47,Male,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Non-Metro,Midwest,Working part-time,Part-time,5
+2015,41797.5978,40,Female,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Full-time,8
+2043,23905.8338,43,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,1
+2049,39046.8014,39,Male,White,No high school diploma or GED,"$75,000 to $99,999",Non-Metro,South,Not working,Full-time,9
+2052,23885.0138,27,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Non-Metro,West,Working full-time,Full-time,9
+2063,11497.5571,64,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Part-time,1
+2078,12604.9223,36,Female,White,Some college or Associate's degree,"Less than $10,000",Metro,West,Working part-time,Part-time,8
+2130,19805.2631,46,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working full-time,Part-time,9
+2173,18273.326,30,Female,White,No high school diploma or GED,"Less than $10,000",Metro,Midwest,Working full-time,Part-time,1
+2224,28341.324,30,Male,Other,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Not working,Full-time,5
+2267,47278.1501,44,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,South,Not working,Part-time,5
+2286,28559.1918,34,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Not working,Full-time,8
+2289,28209.1946,32,Female,Black,No high school diploma or GED,"Less than $10,000",Metro,South,Not working,Full-time,0
+2338,7208.1778,80,Male,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,South,Working part-time,Part-time,9
+2408,40295.1503,24,Male,Hispanic,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,West,Working part-time,Full-time,7
+2422,11171.6115,31,Female,White,Bachelor's degree or higher,"Less than $10,000",Metro,Northeast,Not working,Full-time,1
+2435,18794.735,26,Female,Other,Bachelor's degree or higher,"Less than $10,000",Metro,South,Working full-time,Full-time,4
+2444,28098.3123,57,Male,Black,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working full-time,Full-time,7
+2493,20900.8383,32,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,7
+2565,21485.2296,31,Male,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Non-Metro,Northeast,Working full-time,Part-time,7
+2570,36313.0138,38,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Working full-time,Part-time,10
+2639,36907.5403,37,Male,White,No high school diploma or GED,"$75,000 to $99,999",Metro,Midwest,Working full-time,Part-time,5
+2667,22482.9052,36,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working part-time,Part-time,9
+2712,25979.7551,28,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,5
+2744,33949.8661,40,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,9
+2767,27305.018,34,Female,Black,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,8
+2773,25986.7612,39,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,8
+2783,16302.7652,59,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Part-time,10
+2788,21500.7201,54,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Full-time,7
+2836,19501.1224,43,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Midwest,Working full-time,Part-time,5
+2876,21982.5882,24,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,Midwest,Working part-time,Part-time,8
+2882,43781.2247,25,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,West,Working part-time,Full-time,9
+2959,33387.3686,39,Male,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,West,Working full-time,Full-time,8
+2978,25590.4914,25,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,9
+2981,27643.4111,29,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,3
+3044,35768.9177,29,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,6
+3171,30028.5788,22,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,10
+3185,30366.6798,24,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,6
+3186,28993.6131,39,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Part-time,9
+3278,14127.457,28,Male,Hispanic,Bachelor's degree or higher,"Less than $10,000",Non-Metro,West,Working part-time,Part-time,4
+3290,20301.3285,24,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Working part-time,Full-time,10
+3302,30236.7592,30,Female,Hispanic,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Part-time,7
+3376,22720.1902,30,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,5
+3383,24159.5612,31,Female,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,6
+3390,21282.0005,51,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Northeast,Working part-time,Full-time,10
+3392,18977.5373,27,Male,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working part-time,Part-time,7
+3438,8648.8283,23,Male,Other,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Not working,Full-time,6
+3465,23490.2307,29,Female,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Not working,Full-time,2
+3473,12892.2779,56,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Not working,Part-time,0
+3495,49737.3306,21,Male,Black,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,10
+3611,33001.1091,29,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Not working,Full-time,8
+3640,20481.7834,67,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working part-time,Part-time,7
+3650,32891.2537,37,Female,Black,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working full-time,Full-time,8
+3671,3666.6386,32,Male,Other,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,5
+3685,30366.6798,28,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,3
+3694,44941.4752,21,Male,White,No high school diploma or GED,"$10,000 to $24,999",Metro,South,Not working,Full-time,5
+3700,24048.8575,23,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,6
+3704,29392.9448,29,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,4
+3707,15882.4633,68,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working part-time,Part-time,7
+3712,28559.1918,35,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,9
+3749,26022.5387,22,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,Midwest,Working full-time,Full-time,6
+3762,24048.8575,21,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Part-time,10
+3876,43567.2993,39,Male,Black,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working full-time,Full-time,5
+3888,7040.6897,56,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Not working,Part-time,0
+3904,26076.629,59,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Part-time,8
+3920,35648.5231,26,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,7
+3930,30547.111,44,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working full-time,Part-time,7
+3932,29743.755,25,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,7
+3964,6065.5809,41,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Non-Metro,Northeast,Working full-time,Part-time,8
+3995,24037.114,31,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Working full-time,Full-time,8
+4000,23399.5706,27,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working full-time,Part-time,4
+4036,30547.111,30,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working full-time,Part-time,7
+4146,45126.7701,31,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,West,Working full-time,Full-time,3
+4163,23415.4431,30,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Working full-time,Part-time,8
+4170,32437.5306,28,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,8
+4187,36981.9743,21,Female,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,South,Working full-time,Part-time,7
+4198,16612.8323,76,Male,Other,Bachelor's degree or higher,"$150,000 or more",Non-Metro,Northeast,Working full-time,Full-time,1
+4217,11033.7386,21,Male,Other,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Not working,Full-time,9
+4254,22026.9015,20,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,Northeast,Not working,Part-time,7
+4257,16168.3354,40,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,4
+4258,18432.1427,54,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,2
+4278,11742.8756,35,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,8
+4291,24151.6233,29,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,1
+4332,10855.3913,53,Male,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working full-time,Part-time,6
+4335,86990.1924,28,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,South,Working part-time,Full-time,8
+4351,17443.7602,65,Male,White,Bachelor's degree or higher,"$150,000 or more",Non-Metro,West,Not working,Part-time,2
+4360,16861.8687,40,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Full-time,9
+4380,37480.0995,42,Female,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,West,Not working,Full-time,9
+4438,39282.6537,19,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Part-time,5
+4460,14511.3748,76,Female,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Not working,Part-time,8
+4468,10574.9836,19,Female,Other,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Not working,Full-time,3
+4471,26726.6534,38,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,3
+4472,18764.3278,21,Female,Hispanic,Bachelor's degree or higher,"$10,000 to $24,999",Metro,Northeast,Working full-time,Full-time,0
+4484,5753.7679,30,Female,Other,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,7
+4487,17941.3365,30,Female,Hispanic,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working part-time,Full-time,7
+4508,35867.9391,46,Female,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,South,Working full-time,Part-time,10
+4519,23540.2224,44,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,5
+4556,23746.0747,22,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working full-time,Part-time,7
+4586,6658.6297,21,Male,Other,Some college or Associate's degree,"Less than $10,000",Metro,South,Working part-time,Full-time,4
+4588,26333.8401,22,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,2
+4590,23897.4806,42,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,7
+4609,26253.9459,27,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,5
+4658,48396.0053,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Midwest,Working part-time,Part-time,8
+4672,55075.7596,18,Male,White,No high school diploma or GED,"$50,000 to $74,999",Non-Metro,South,Working part-time,Full-time,8
+4714,23922.6348,39,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Part-time,8
+4816,12570.0952,43,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Midwest,Working full-time,Part-time,3
+4827,23647.8226,30,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working part-time,Full-time,7
+4832,21555.6205,29,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,8
+4885,24048.8575,20,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,6
+4905,41960.9119,24,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Not working,Part-time,6
+4927,21960.6095,35,Male,Hispanic,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,9
+4946,20745.8822,33,Female,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,3
+4960,25442.7945,24,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Working full-time,Part-time,6
+4965,13431.1949,37,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working part-time,Part-time,8
+4976,62410.7535,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Midwest,Working part-time,Full-time,9
+4979,28231.1125,25,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working part-time,Part-time,3
+4980,35298.2167,23,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working full-time,Full-time,8
+4982,29713.0783,21,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,7
+5016,27643.4111,25,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Not working,Full-time,9
+5044,19475.5771,50,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working full-time,Full-time,7
+5085,36918.5222,31,Female,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working part-time,Part-time,3
+5090,32650.5758,27,Female,Black,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,West,Not working,Full-time,5
+5118,32074.1762,31,Female,Black,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Not working,Full-time,8
+5124,78434.2743,20,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Working full-time,Full-time,5
+5153,27057.3341,19,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Not working,Full-time,8
+5173,13289.8954,75,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Part-time,6
+5194,33372.0199,19,Male,Black,Some college or Associate's degree,"$75,000 to $99,999",Metro,Midwest,Not working,Part-time,5
+5206,28065.7219,25,Female,Other,Some college or Associate's degree,"Less than $10,000",Metro,South,Not working,Full-time,6
+5211,22690.1815,27,Female,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,1
+5229,17034.646,34,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working part-time,Full-time,8
+5245,22472.8144,37,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,West,Not working,Full-time,8
+5275,23490.2307,20,Female,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working part-time,Part-time,7
+5278,23922.6348,40,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working part-time,Part-time,8
+5280,16869.4681,18,Male,White,Some college or Associate's degree,"Less than $10,000",Metro,Northeast,Not working,Full-time,7
+5282,22146.0361,39,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,8
+5372,23056.0422,24,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Not working,Part-time,3
+5378,23746.0747,22,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Not working,Full-time,7
+5461,26333.8401,22,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,7
+5489,10965.4948,80,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Not working,Part-time,8
+5532,11421.6997,67,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Not working,Part-time,6
+5536,13289.8954,69,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working part-time,Part-time,8
+5541,24994.6116,28,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Not working,Full-time,0
+5597,21891.6326,42,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Midwest,Not working,Part-time,5
+5625,35648.5231,24,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working part-time,Full-time,8
+5628,48033.5277,20,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Working part-time,Full-time,10
+5639,37592.4328,47,Female,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Full-time,8
+5643,21389.0877,22,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,Northeast,Working part-time,Full-time,3
+5669,20496.546,58,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Working part-time,Part-time,9
+5674,19495.1043,42,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Non-Metro,Northeast,Working full-time,Part-time,7
+5721,39459.5237,27,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Full-time,8
+5824,26253.9459,28,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,0
+5826,45039.6955,39,Male,Black,No high school diploma or GED,"$10,000 to $24,999",Metro,South,Working part-time,Part-time,0
+5862,43948.1063,25,Female,Black,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working part-time,Part-time,2
+5890,13183.911,55,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,5
+5894,28530.1393,38,Male,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Part-time,7
+5902,49703.915,18,Female,Black,No high school diploma or GED,"$25,000 to $49,999",Metro,South,Not working,Full-time,3
+5943,36123.8954,25,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working full-time,Part-time,5
+5984,79294.453,21,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Not working,Full-time,8
+5997,14261.4767,41,Male,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,7
+6000,26114.2574,30,Female,Black,No high school diploma or GED,"Less than $10,000",Metro,Midwest,Working full-time,Part-time,4
+6007,18693.8355,39,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working full-time,Full-time,4
+6015,23399.5706,28,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working part-time,Part-time,5
+6022,17182.9287,52,Female,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Not working,Full-time,7
+6033,32668.7509,38,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Working full-time,Full-time,7
+6035,26382.0526,30,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,8
+6046,41603.9262,20,Male,White,No high school diploma or GED,"$10,000 to $24,999",Metro,Midwest,Not working,Full-time,3
+6054,27643.4111,29,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,8
+6060,35648.5231,23,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Not working,Full-time,7
+6072,16168.3354,31,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,3
+6076,32045.6748,25,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,West,Working part-time,Full-time,10
+6077,34889.0717,22,Male,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,Northeast,Not working,Full-time,7
+6083,22239.2576,30,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Not working,Part-time,5
+6096,30062.0472,52,Female,Black,Some college or Associate's degree,"$100,000 to $149,999",Non-Metro,South,Not working,Part-time,10
+6101,21982.5882,27,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,Midwest,Not working,Full-time,7
+6120,22209.5667,28,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Part-time,5
+6129,37230.1366,18,Female,White,No high school diploma or GED,"$75,000 to $99,999",Metro,Midwest,Working part-time,Full-time,10
+6171,27614.3447,28,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,8
+6174,16328.746,32,Male,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,7
+6191,29732.7219,26,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working part-time,Full-time,9
+6193,21425.1601,18,Female,Other,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Not working,Full-time,9
+6207,21883.5087,27,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,4
+6221,18881.3375,26,Male,White,Bachelor's degree or higher,"$10,000 to $24,999",Non-Metro,West,Working part-time,Full-time,8
+6249,32538.3112,19,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,8
+6252,32437.5306,28,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,4
+6254,9028.7879,70,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working part-time,Part-time,9
+6279,17077.8151,26,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,West,Working full-time,Full-time,7
+6302,21603.5463,26,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Not working,Full-time,8
+6312,41797.5978,34,Female,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Part-time,7
+6323,21876.793,24,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,3
+6324,19362.5937,28,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,6
+6360,24539.2323,31,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Non-Metro,West,Working part-time,Full-time,8
+6365,19362.5982,31,Male,Other,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,8
+6367,15771.6511,22,Male,White,Some college or Associate's degree,"Less than $10,000",Metro,Midwest,Not working,Full-time,2
+6377,35648.5231,28,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Part-time,8
+6379,15565.8131,21,Female,Other,Some college or Associate's degree,"$150,000 or more",Metro,West,Not working,Full-time,8
+6386,27506.4562,22,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,10
+6389,18932.1979,30,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Not working,Part-time,5
+6395,11703.031,55,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,9
+6407,34148.31,39,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,8
+6411,20528.0944,26,Female,Hispanic,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,7
+6451,32311.2597,25,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working part-time,Part-time,6
+6459,25022.1054,24,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working full-time,Full-time,3
+6470,19152.5501,25,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,7
+6473,18695.7299,30,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working part-time,Part-time,9
+6481,23284.3861,26,Male,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,5
+6484,22514.1693,26,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Northeast,Working full-time,Part-time,8
+6489,24283.2291,28,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,6
+6502,50856.2839,29,Female,Black,Some college or Associate's degree,"$150,000 or more",Metro,South,Working full-time,Part-time,5
+6504,22737.6043,26,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,8
+6507,21603.5463,24,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Full-time,7
+6508,26687.7233,25,Female,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Full-time,7
+6509,44212.7693,25,Male,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Full-time,9
+6522,22761.0793,24,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,4
+6529,36891.61,24,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,7
+6534,23056.0422,24,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Not working,Full-time,8
+6535,24048.8575,25,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,2
+6538,33237.9126,28,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Full-time,2
+6539,19879.4568,28,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,3
+6540,27917.1876,27,Female,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,7
+6545,32812.6899,23,Female,Other,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,7
+6555,10763.3001,24,Male,Hispanic,Bachelor's degree or higher,"Less than $10,000",Metro,West,Not working,Full-time,7
+6569,27924.8641,23,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,6
+6571,28220.6405,26,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working part-time,Full-time,7
+6573,16580.5006,25,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,6
+6574,19684.1078,26,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Part-time,6
+6575,27057.3341,26,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Working full-time,Full-time,8
+6584,15501.4887,27,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,5
+6586,33567.7722,24,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,7
+6587,27342.9875,29,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Northeast,Working full-time,Part-time,7
+6589,36049.1891,24,Male,Black,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working part-time,Full-time,3
+6597,30883.5492,24,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Not working,Full-time,8
+6600,24048.8575,22,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,7
+6607,24143.1843,27,Female,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,4
+6619,26022.5387,21,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,Midwest,Not working,Full-time,7
+6621,15498.1327,27,Female,White,Some college or Associate's degree,"Less than $10,000",Metro,South,Not working,Part-time,10
+6623,25296.5197,22,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Midwest,Not working,Full-time,9
+6646,29664.0745,18,Male,Other,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Northeast,Working part-time,Full-time,8
+6653,27610.5839,28,Male,Other,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,1
+6673,29102.9744,21,Female,Hispanic,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,South,Working full-time,Part-time,10
+6678,16745.0487,28,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,7
+6694,25722.8259,21,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working part-time,Part-time,5
+6702,25022.1054,27,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,8
+6714,30752.476,21,Female,White,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Not working,Full-time,7
+6732,24620.1087,19,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,4
+6738,20837.024,30,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Not working,Full-time,3
+6758,18239.0615,24,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Non-Metro,Midwest,Not working,Full-time,7
+6759,36049.1891,29,Male,Black,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,6
+6769,21057.7269,30,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,7
+6779,24542.8487,39,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,3
+6782,17730.1986,28,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,9
+6794,18996.8667,31,Female,Hispanic,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,7
+6803,38373.8181,32,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,South,Working full-time,Part-time,6
+6804,14975.528,31,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Non-Metro,Midwest,Working full-time,Full-time,8
+6809,88732.6474,38,Male,Other,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Non-Metro,West,Not working,Full-time,5
+6820,23284.8549,28,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,6
+6826,43094.6855,40,Male,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Not working,Full-time,7
+6827,14121.3338,39,Male,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,7
+6856,18108.6517,34,Male,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working part-time,Full-time,0
+6862,48396.0053,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Midwest,Not working,Full-time,8
+6869,27371.7683,28,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,3
+6874,43125.2355,20,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Not working,Full-time,6
+6878,22761.0793,27,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Northeast,Not working,Full-time,6
+6880,10755.3979,23,Male,White,Bachelor's degree or higher,"Less than $10,000",Non-Metro,South,Working part-time,Full-time,5
+6882,21369.1931,26,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,6
+6885,27093.6773,24,Female,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,7
+6895,22529.8318,26,Female,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Full-time,8
+6952,12517.6437,46,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,6
+6970,46896.2074,20,Male,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,5
+6993,19362.5937,24,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,6
+7053,16329.0748,44,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Part-time,6
+7095,44342.2407,20,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,South,Not working,Full-time,6
+7100,21883.5087,26,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,10
+7102,50357.9924,21,Male,Other,Some college or Associate's degree,"$75,000 to $99,999",Metro,Midwest,Working part-time,Full-time,6
+7117,18171.4208,27,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,South,Working part-time,Full-time,7
+7146,17924.6476,41,Male,Other,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Working full-time,Full-time,4
+7154,30418.8761,22,Female,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Not working,Full-time,3
+7170,32538.3112,20,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,6
+7173,28340.4706,33,Male,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,West,Working full-time,Part-time,5
+7176,57988.9417,18,Female,Hispanic,No high school diploma or GED,"$10,000 to $24,999",Metro,South,Not working,Full-time,2
+7216,27643.4111,24,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,5
+7234,34990.2414,58,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Not working,Part-time,2
+7265,13289.8954,66,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Part-time,8
+7273,22986.9647,28,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,9
+7274,68193.7261,18,Female,Hispanic,No high school diploma or GED,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,5
+7275,23284.8549,29,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,4
+7276,39282.6537,25,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Not working,Full-time,6
+7301,55484.7269,21,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Working part-time,Full-time,5
+7337,36468.129,23,Male,Black,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working part-time,Full-time,5
+7343,14029.3431,50,Male,Other,Bachelor's degree or higher,"$75,000 to $99,999",Metro,Midwest,Not working,Part-time,5
+7344,30242.6277,39,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working full-time,Full-time,9
+7353,26467.5892,70,Female,Black,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working part-time,Full-time,9
+7354,30418.8761,19,Female,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Not working,Full-time,9
+7380,31315.2834,28,Male,Hispanic,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,6
+7393,7828.2753,30,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Working part-time,Part-time,5
+7405,19493.8887,35,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Full-time,9
+7427,13431.1949,33,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,8
+7431,25890.0138,36,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,7
+7450,12761.3023,31,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Part-time,8
+7483,47609.5579,21,Male,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,West,Not working,Full-time,5
+7497,15346.3465,39,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,5
+7505,11911.4228,64,Female,Hispanic,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working part-time,Part-time,5
+7511,22737.6043,26,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,8
+7539,55749.7646,19,Female,Other,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,Northeast,Working part-time,Full-time,7
+7547,48152.6623,18,Male,White,No high school diploma or GED,"$25,000 to $49,999",Non-Metro,South,Not working,Full-time,8
+7569,39826.9561,20,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,West,Not working,Part-time,4
+7570,34365.2713,29,Male,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,South,Working full-time,Full-time,3
+7573,43294.3854,22,Female,Black,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,8
+7588,22950.0534,33,Male,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Non-Metro,Midwest,Not working,Part-time,6
+7607,26595.1823,18,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working part-time,Full-time,5
+7647,52850.1911,18,Male,White,No high school diploma or GED,"$50,000 to $74,999",Metro,West,Not working,Full-time,7
+7652,18599.0304,24,Female,Black,Some college or Associate's degree,"Less than $10,000",Metro,South,Not working,Part-time,9
+7661,40855.1361,20,Female,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,West,Working part-time,Full-time,8
+7677,23391.2933,31,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Not working,Part-time,2
+7688,24037.114,44,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Working full-time,Full-time,10
+7700,30038.9379,23,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,9
+7720,28158.686,30,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Part-time,5
+7729,19831.3197,32,Male,Black,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,2
+7730,22986.9647,27,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Not working,Full-time,7
+7738,49784.9876,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Non-Metro,Midwest,Not working,Full-time,4
+7773,5180.6398,52,Male,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Part-time,4
+7784,66754.9777,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Northeast,Not working,Full-time,9
+7793,6185.1659,27,Female,Other,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,4
+7819,23144.8313,20,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Not working,Full-time,6
+7824,33441.1782,21,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Not working,Full-time,4
+7842,81664.8037,20,Female,Hispanic,No high school diploma or GED,"$100,000 to $149,999",Metro,Midwest,Not working,Full-time,10
+7852,44212.7693,23,Male,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Part-time,6
+7865,23446.8946,33,Female,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Not working,Full-time,10
+7883,30485.3513,25,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working part-time,Part-time,2
+7900,18500.2584,31,Male,Black,Some college or Associate's degree,"$10,000 to $24,999",Metro,Midwest,Working part-time,Part-time,8
+7906,24542.8487,40,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,7
+7925,45514.5175,19,Male,White,No high school diploma or GED,"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,5
+7969,38733.7106,20,Female,Other,Some college or Associate's degree,"$10,000 to $24,999",Metro,Northeast,Working part-time,Full-time,7
+8015,49784.9876,20,Male,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Non-Metro,Midwest,Not working,Full-time,8
+8025,62410.7535,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Midwest,Working part-time,Full-time,8
+8028,20220.9492,47,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Not working,Part-time,7
+8038,15737.2859,28,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Not working,Full-time,3
+8040,26549.5472,21,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,6
+8044,62683.0421,18,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,South,Not working,Full-time,10
+8045,21876.793,28,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,5
+8075,4506.9554,37,Male,Other,Bachelor's degree or higher,"$25,000 to $49,999",Non-Metro,West,Working full-time,Full-time,7
+8093,43471.3615,18,Female,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Working full-time,Full-time,5
+8104,23260.3714,28,Male,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,4
+8112,19220.1805,41,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,4
+8179,15116.4069,35,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,6
+8198,26646.6737,19,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Non-Metro,West,Working full-time,Full-time,4
+8222,25445.684,20,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,5
+8308,13299.2109,42,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Northeast,Working full-time,Full-time,10
+8318,19454.1777,46,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Not working,Part-time,0
+8345,20097.9766,42,Female,Hispanic,Bachelor's degree or higher,"$50,000 to $74,999",Non-Metro,South,Working full-time,Part-time,3
+8367,17992.8562,25,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,Northeast,Working full-time,Full-time,5
+8379,26530.1979,28,Female,Other,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,4
+8393,19739.2482,41,Female,White,No high school diploma or GED,"Less than $10,000",Metro,South,Not working,Full-time,0
+8411,29392.9448,21,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,9
+8426,24557.9197,54,Female,Black,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Part-time,5
+8437,25022.1054,27,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,5
+8443,43472.29,21,Male,White,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Not working,Full-time,7
+8444,21876.793,22,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,2
+8445,23308.9003,30,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Not working,Full-time,6
+8455,17077.8151,25,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,West,Working part-time,Full-time,8
+8475,26980.2653,34,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Non-Metro,South,Working full-time,Part-time,6
+8496,29392.9448,24,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,3
+8525,23056.0422,26,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Full-time,8
+8532,30699.7073,19,Male,Hispanic,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working part-time,Full-time,8
+8551,24414.671,26,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,9
+8602,12761.3023,30,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Full-time,7
+8611,18619.3719,32,Female,White,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Non-Metro,West,Working part-time,Part-time,4
+8617,39616.901,20,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,5
+8639,22076.5244,20,Female,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Working part-time,Part-time,4
+8653,24709.6295,42,Male,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,South,Not working,Part-time,8
+8654,20528.0944,25,Female,Hispanic,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working part-time,Full-time,7
+8659,46082.9144,19,Female,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,South,Not working,Full-time,5
+8661,25978.1043,24,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,7
+8678,19362.5937,26,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,6
+8693,32437.5306,20,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,7
+8724,22209.5667,19,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Part-time,2
+8736,79294.453,19,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working part-time,Part-time,9
+8744,41673.6035,21,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,West,Not working,Full-time,6
+8759,62132.4048,19,Female,Hispanic,No high school diploma or GED,"$25,000 to $49,999",Non-Metro,South,Working part-time,Part-time,7
+8778,15116.4069,39,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Working full-time,Part-time,2
+8781,21038.0132,30,Female,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,South,Working part-time,Part-time,7
+8809,24925.608,22,Female,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,South,Not working,Full-time,4
+8816,23056.0422,26,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working full-time,Full-time,6
+8853,25402.7232,20,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Not working,Part-time,2
+8874,23618.1977,35,Female,Other,Bachelor's degree or higher,"$25,000 to $49,999",Non-Metro,Midwest,Not working,Full-time,5
+8903,22720.1902,42,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,0
+8904,38055.8025,39,Female,White,Bachelor's degree or higher,"$150,000 or more",Non-Metro,West,Working part-time,Part-time,8
+8913,87299.3888,19,Male,White,No high school diploma or GED,"$150,000 or more",Metro,Northeast,Not working,Full-time,6
+8918,16849.1984,44,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Non-Metro,South,Not working,Part-time,10
+8924,35235.3177,19,Male,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,South,Not working,Part-time,3
+8965,27832.4729,36,Female,Black,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,Midwest,Working part-time,Full-time,7
+8992,39807.2877,20,Male,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,7
+8997,18197.2999,28,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Part-time,8
+9002,10376.6627,52,Male,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,7
+9056,28231.1125,19,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working part-time,Full-time,9
+9071,36123.8954,19,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Part-time,0
+9105,30420.8103,19,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,4
+9132,21037.9463,47,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Not working,Part-time,0
+9146,23922.6348,38,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,4
+9157,25722.8259,24,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,9
+9163,16142.5632,48,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working full-time,Full-time,8
+9168,10047.66,57,Female,White,Bachelor's degree or higher,"Less than $10,000",Metro,Northeast,Working part-time,Full-time,4
+9175,67417.4672,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,South,Working part-time,Full-time,9
+9191,67485.6295,18,Female,Black,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Northeast,Not working,Full-time,5
+9210,28860.6014,23,Male,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,6
+9216,32538.3112,18,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,8
+9220,9145.3974,22,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working part-time,Full-time,4
+9229,30366.6798,25,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working part-time,Part-time,3
+9241,68367.5584,18,Male,White,No high school diploma or GED,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,5
+9244,30883.5492,19,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working part-time,Full-time,8
+9245,21876.793,23,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Full-time,8
+9250,21295.378,37,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,2
+9259,19582.9949,37,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,6
+9260,74710.6647,24,Male,Black,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,South,Not working,Full-time,7
+9263,28360.0892,22,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Not working,Full-time,8
+9265,18528.7857,20,Female,Other,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working full-time,Part-time,6
+9268,24414.671,21,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Full-time,8
+9280,27371.7683,22,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working part-time,Part-time,5
+9286,28249.6908,18,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working part-time,Full-time,6
+9288,42578.1529,20,Male,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Northeast,Working part-time,Full-time,8
+9300,24071.2459,24,Female,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,Northeast,Working full-time,Part-time,7
+9305,39230.215,19,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Not working,Full-time,8
+9318,53727.3574,24,Male,Black,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working full-time,Part-time,6
+9331,22213.6828,31,Female,Black,Some college or Associate's degree,"$10,000 to $24,999",Metro,Northeast,Working full-time,Full-time,8
+9332,36618.5645,18,Female,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,3
+9333,9236.1582,20,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working part-time,Full-time,4
+9338,36918.5163,21,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Not working,Full-time,7
+9350,43125.2355,19,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,8
+9363,32311.2597,19,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,5
+9366,45590.7442,21,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Working part-time,Full-time,3
+9370,42377.3402,19,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Working part-time,Part-time,6
+9384,33584.0794,21,Female,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working part-time,Part-time,5
+9403,48947.8588,22,Female,Other,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working part-time,Full-time,2
+9410,35332.8624,20,Male,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Not working,Full-time,10
+9417,21951.52,22,Female,Hispanic,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,9
+9427,24414.671,26,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,1
+9446,30420.8103,21,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working full-time,Full-time,7
+9462,37230.1366,18,Female,White,No high school diploma or GED,"$75,000 to $99,999",Metro,Midwest,Working part-time,Full-time,6
+9469,23065.793,35,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Part-time,6
+9474,16745.0487,25,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,8
+9496,16490.7957,42,Male,Black,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,2
+9500,30883.5492,20,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working part-time,Full-time,10
+9502,65106.7402,18,Male,White,No high school diploma or GED,"$100,000 to $149,999",Non-Metro,Midwest,Working full-time,Full-time,7
+9504,32861.2277,21,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,7
+9519,13306.938,38,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Non-Metro,Northeast,Working full-time,Full-time,9
+9534,15306.32,24,Male,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,South,Not working,Part-time,7
+9536,21876.793,23,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,7
+9541,64253.0119,18,Male,White,No high school diploma or GED,"$100,000 to $149,999",Metro,West,Not working,Full-time,7
+9542,25698.212,25,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working part-time,Full-time,0
+9558,34235.5324,22,Female,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,2
+9575,46127.053,21,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Working part-time,Full-time,5
+9584,36123.8954,20,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Not working,Full-time,6
+9586,42925.6348,20,Male,Black,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,7
+9587,21369.1931,24,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Full-time,7
+9607,35218.1041,18,Female,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Non-Metro,Midwest,Not working,Full-time,8
+9611,67901.1162,18,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,5
+9621,26022.5387,19,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,Midwest,Working part-time,Full-time,6
+9622,66754.9777,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Northeast,Not working,Full-time,7
+9624,23998.2161,21,Female,Black,Some college or Associate's degree,"$10,000 to $24,999",Metro,Midwest,Working part-time,Full-time,2
+9641,25681.3117,21,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working part-time,Full-time,4
+9671,31931.0925,50,Male,Hispanic,No high school diploma or GED,"Less than $10,000",Metro,South,Working full-time,Full-time,6
+9703,43125.2355,22,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,6
+9708,9001.9266,46,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,6
+9714,35298.2167,20,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working part-time,Full-time,9
+9719,21917.7632,43,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Non-Metro,Midwest,Working part-time,Part-time,6
+9722,79294.453,26,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working full-time,Part-time,7
+9733,24151.6233,20,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working full-time,Full-time,2
+9739,32659.6408,46,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Working full-time,Part-time,8
+9745,19799.3672,58,Male,Black,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,7
+9753,15353.2881,46,Male,Black,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,4
+9763,46896.2074,20,Male,Hispanic,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,8
+9779,21493.2073,53,Female,Black,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,7
+9793,18217.7819,31,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,5
+9799,19220.1805,41,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Full-time,7
+9805,48363.4908,18,Female,White,No high school diploma or GED,"$100,000 to $149,999",Metro,South,Not working,Full-time,6
+9806,19997.1467,23,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,Midwest,Working part-time,Full-time,6
+9840,22504.6647,25,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,Midwest,Working full-time,Full-time,9
+9841,30418.8761,24,Female,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Working part-time,Part-time,2
+9852,23399.5706,20,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,8
+9857,28606.2186,24,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,Midwest,Working full-time,Part-time,6
+9869,29100.8049,26,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,South,Working part-time,Full-time,5
+9875,70129.7082,18,Male,White,No high school diploma or GED,"$75,000 to $99,999",Non-Metro,West,Not working,Full-time,10
+9881,26253.9459,23,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,9
+9882,24925.608,27,Female,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,South,Not working,Part-time,5
+9902,34939.5948,25,Female,Hispanic,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working part-time,Part-time,9
+9904,47222.7446,20,Female,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Northeast,Not working,Full-time,7
+9919,35734.6907,25,Female,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,7
+9925,16821.9323,24,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,Midwest,Not working,Full-time,7
+9933,37595.4599,18,Male,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Not working,Part-time,7
+9943,32197.1561,18,Female,White,No high school diploma or GED,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,3
+9946,27506.4562,19,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working part-time,Part-time,7
+9947,9236.1582,24,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,4
+9949,21049.0111,25,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Working full-time,Full-time,4
+9960,7096.008,45,Male,Other,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,9
+9967,32861.2277,20,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,5
+9970,27325.8564,20,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working part-time,Full-time,8
+9972,22504.6647,23,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,Midwest,Working full-time,Full-time,8
+9986,30752.476,20,Female,White,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Not working,Full-time,2
+9990,37386.4416,18,Female,White,No high school diploma or GED,"$50,000 to $74,999",Metro,West,Not working,Full-time,7
+10008,24048.8575,24,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working full-time,Part-time,5
+10009,29421.0976,20,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Northeast,Not working,Full-time,7
+10013,33441.1782,21,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,8
+10015,35235.3177,25,Male,Black,High school graduate (high school diploma or the equivalent GED),"Less than $10,000",Metro,South,Working full-time,Part-time,4
+10019,43045.102,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,Northeast,Working part-time,Full-time,2
+10024,34803.4579,20,Male,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,6
+10027,17992.8562,22,Female,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,Northeast,Working part-time,Part-time,9
+10030,79283.8532,22,Male,Other,Some college or Associate's degree,"$150,000 or more",Metro,West,Not working,Full-time,3
+10035,41960.9119,19,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Not working,Full-time,4
+10037,88732.6474,19,Male,Other,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,Northeast,Not working,Full-time,10
+10044,24151.6233,26,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Part-time,5
+10063,6057.2301,19,Female,Other,Some college or Associate's degree,"Less than $10,000",Metro,South,Working full-time,Part-time,7
+10064,43125.2355,25,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working full-time,Full-time,8
+10087,16302.7652,55,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Working full-time,Full-time,6
+10090,33567.7722,22,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Part-time,6
+10106,15742.3026,47,Male,Other,Some college or Associate's degree,"Less than $10,000",Metro,West,Working full-time,Part-time,5
+10109,35379.5195,25,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Non-Metro,South,Not working,Part-time,7
+10120,30752.476,23,Female,White,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working full-time,Part-time,4
+10129,48298.5337,25,Female,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Full-time,7
+10137,18791.4821,52,Female,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,10
+10138,28249.6908,24,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,5
+10139,43471.3615,18,Female,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Not working,Part-time,7
+10140,8795.6359,21,Female,Other,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,Midwest,Working part-time,Full-time,9
+10144,23789.7512,20,Female,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,7
+10149,81618.1927,19,Male,White,No high school diploma or GED,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,8
+10150,38931.7183,39,Female,Black,No high school diploma or GED,"$10,000 to $24,999",Metro,Northeast,Working full-time,Full-time,3
+10152,8648.8283,23,Male,Other,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Not working,Full-time,7
+10153,36826.2676,18,Female,White,No high school diploma or GED,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,6
+10163,43125.2355,20,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Not working,Full-time,8
+10172,44926.0702,67,Male,Black,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Northeast,Working full-time,Full-time,7
+10174,53429.7924,18,Male,White,No high school diploma or GED,"$75,000 to $99,999",Metro,West,Not working,Full-time,3
+10179,21115.4443,19,Female,White,No high school diploma or GED,"Less than $10,000",Metro,Midwest,Working part-time,Part-time,6
+10184,30420.8103,20,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Not working,Full-time,6
+10188,26549.5472,23,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Part-time,5
+10204,59508.7225,20,Female,Other,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Not working,Full-time,3
+10213,25022.1054,19,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,2
+10220,27623.9971,22,Female,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Not working,Full-time,1
+10223,9181.5882,40,Female,Other,Bachelor's degree or higher,"$100,000 to $149,999",Non-Metro,West,Working full-time,Full-time,8
+10224,48298.5337,28,Female,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Not working,Full-time,3
+10245,16652.5165,30,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Not working,Full-time,8
+10249,29438.1918,18,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Non-Metro,Northeast,Working part-time,Full-time,7
+10259,42114.626,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Non-Metro,South,Working full-time,Full-time,8
+10273,32437.5306,24,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Full-time,3
+10294,56234.5393,18,Male,White,No high school diploma or GED,"$50,000 to $74,999",Metro,South,Working part-time,Part-time,3
+10296,15839.0467,21,Female,Hispanic,Some college or Associate's degree,"Less than $10,000",Metro,West,Not working,Full-time,5
+10312,27643.4111,25,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,2
+10316,25326.7144,19,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Non-Metro,Midwest,Working full-time,Full-time,6
+10318,18693.8355,39,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working part-time,Part-time,4
+10323,19475.639,38,Female,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,Midwest,Not working,Full-time,3
+10324,30420.8103,20,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,8
+10330,39282.6537,22,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,7
+10336,35768.9177,22,Male,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,6
+10347,46584.8269,23,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Working part-time,Full-time,7
+10348,17730.1986,25,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,6
+10351,5600.3719,24,Male,Other,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,6
+10353,18197.2999,23,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working full-time,Part-time,8
+10364,22434.1358,43,Female,Black,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Not working,Full-time,9
+10398,26114.2574,44,Female,Black,No high school diploma or GED,"Less than $10,000",Metro,Midwest,Not working,Part-time,5
+10403,16329.0748,38,Male,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,6
+10411,32770.9212,50,Male,Black,No high school diploma or GED,"$10,000 to $24,999",Metro,West,Working part-time,Full-time,0
+10414,11248.1266,71,Male,White,Bachelor's degree or higher,"$75,000 to $99,999",Non-Metro,West,Not working,Part-time,5
+10416,46584.8269,20,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,South,Working full-time,Full-time,9
+10417,52145.5044,19,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,West,Not working,Full-time,7
+10425,25740.2486,20,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,Midwest,Working part-time,Part-time,4
+10430,23075.4611,18,Female,Other,No high school diploma or GED,"$25,000 to $49,999",Non-Metro,Midwest,Not working,Full-time,5
+10443,30028.5788,22,Female,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,8
+10444,18217.7819,42,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,2
+10450,28545.3752,20,Female,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,3
+10463,16869.4681,20,Male,White,Some college or Associate's degree,"Less than $10,000",Metro,Northeast,Working part-time,Full-time,5
+10466,27926.9459,23,Female,Hispanic,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Working full-time,Full-time,8
+10501,26595.1823,19,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Not working,Full-time,7
+10506,42602.8915,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Non-Metro,Northeast,Working part-time,Full-time,8
+10513,26114.0983,50,Male,Black,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Non-Metro,South,Not working,Part-time,7
+10520,35734.6907,22,Female,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,10
+10536,39230.215,21,Female,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,7
+10537,48363.4908,18,Female,White,No high school diploma or GED,"$100,000 to $149,999",Metro,South,Not working,Full-time,3
+10557,26196.1742,27,Female,Other,Bachelor's degree or higher,"$10,000 to $24,999",Metro,South,Working part-time,Part-time,6
+10568,59321.9884,39,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Non-Metro,West,Working part-time,Part-time,1
+10569,10053.4096,24,Male,Other,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,7
+10591,32184.083,22,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Non-Metro,South,Working part-time,Part-time,4
+10604,40242.9895,18,Female,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Midwest,Working part-time,Full-time,9
+10607,23712.5143,24,Female,Hispanic,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Not working,Full-time,9
+10611,20407.6522,33,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,South,Working full-time,Part-time,4
+10621,43948.1063,19,Female,Black,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working part-time,Full-time,7
+10627,12843.3548,19,Female,Other,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,4
+10633,15675.7862,23,Male,Other,Bachelor's degree or higher,"Less than $10,000",Metro,Northeast,Not working,Full-time,7
+10670,40225.2295,18,Female,Other,No high school diploma or GED,"$150,000 or more",Metro,Midwest,Working part-time,Full-time,5
+10677,46127.053,21,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Northeast,Working part-time,Full-time,7
+10702,26646.6737,21,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Non-Metro,West,Not working,Full-time,8
+10764,43351.6373,26,Male,Black,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,8
+10790,14160.692,37,Male,Hispanic,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working full-time,Full-time,6
+10794,62446.3954,21,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,3
+10803,79294.453,18,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$75,000 to $99,999",Metro,South,Working part-time,Full-time,9
+10808,17411.646,29,Male,Hispanic,Some college or Associate's degree,"Less than $10,000",Metro,West,Working full-time,Part-time,10
+10813,35463.0393,32,Male,Other,Some college or Associate's degree,"$50,000 to $74,999",Metro,West,Working full-time,Full-time,10
+10816,25681.3117,19,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,West,Not working,Full-time,8
+10842,67417.4672,21,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,South,Not working,Full-time,7
+10893,28360.0892,29,Female,Black,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Not working,Part-time,6
+10906,18932.1979,41,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,5
+10910,22087.8618,59,Male,Other,Bachelor's degree or higher,"$150,000 or more",Metro,West,Working full-time,Part-time,8
+10927,20858.5367,36,Male,White,Some college or Associate's degree,"$75,000 to $99,999",Metro,Northeast,Working full-time,Part-time,7
+10950,81754.8849,18,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,West,Not working,Full-time,10
+10963,44821.1941,22,Female,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,West,Working part-time,Full-time,4
+10976,19341.8905,32,Female,Black,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working part-time,Part-time,5
+11001,26549.5472,21,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Working part-time,Full-time,5
+11005,18695.7299,32,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,West,Working part-time,Part-time,7
+11009,32596.6755,29,Female,Black,No high school diploma or GED,"Less than $10,000",Metro,South,Working part-time,Part-time,4
+11010,10166.1408,22,Male,White,Bachelor's degree or higher,"Less than $10,000",Metro,Midwest,Working full-time,Full-time,8
+11013,45590.7442,18,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Working part-time,Part-time,3
+11023,30420.8103,19,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,Midwest,Working part-time,Full-time,6
+11037,25951.6699,46,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Non-Metro,West,Working full-time,Full-time,8
+11087,55484.7269,19,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,South,Working part-time,Full-time,8
+11100,27746.4885,48,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Not working,Part-time,8
+11102,17029.2092,31,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,South,Working part-time,Part-time,8
+11106,18683.0567,27,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,West,Working part-time,Full-time,4
+11108,26549.5472,18,Male,Hispanic,Some college or Associate's degree,"$25,000 to $49,999",Metro,West,Not working,Full-time,7
+11110,36918.5163,27,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,West,Working part-time,Part-time,4
+11115,37226.0216,29,Male,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,Northeast,Not working,Full-time,9
+11122,10870.7987,30,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,8
+11123,23399.5706,20,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Northeast,Working part-time,Full-time,7
+11132,15501.4887,26,Male,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Midwest,Not working,Full-time,7
+11147,22737.6043,29,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,2
+11151,14169.6063,24,Male,White,Bachelor's degree or higher,"$10,000 to $24,999",Metro,Midwest,Working part-time,Part-time,6
+11168,19892.9415,36,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Working part-time,Part-time,3
+11189,32861.2277,19,Female,White,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,7
+11207,24994.6116,20,Female,White,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,West,Working part-time,Part-time,5
+11221,32311.2597,20,Male,Hispanic,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Not working,Part-time,4
+11222,28379.3266,33,Female,Black,Some college or Associate's degree,"$75,000 to $99,999",Metro,South,Working full-time,Part-time,9
+11254,25442.7945,25,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Non-Metro,South,Not working,Full-time,8
+11261,26762.7745,22,Female,White,Some college or Associate's degree,"$75,000 to $99,999",Non-Metro,South,Not working,Full-time,7
+11264,10755.3979,21,Male,White,Bachelor's degree or higher,"Less than $10,000",Non-Metro,South,Working part-time,Full-time,7
+11272,20450.9761,36,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,8
+11273,28559.1918,40,Female,White,Bachelor's degree or higher,"$150,000 or more",Metro,Midwest,Working full-time,Part-time,7
+11283,16853.3259,25,Female,Hispanic,Some college or Associate's degree,"Less than $10,000",Metro,South,Working full-time,Part-time,1
+11285,18693.8355,34,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,South,Working full-time,Full-time,4
+11305,38896.6359,27,Male,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,Northeast,Working full-time,Part-time,8
+11309,64956.279,19,Female,Black,No high school diploma or GED,"$100,000 to $149,999",Metro,West,Working part-time,Full-time,2
+11310,35734.6907,24,Female,Hispanic,Some college or Associate's degree,"$100,000 to $149,999",Metro,South,Working full-time,Full-time,6
+11311,19483.0237,32,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Non-Metro,South,Working full-time,Part-time,4
+11314,16869.4681,20,Male,White,Some college or Associate's degree,"Less than $10,000",Metro,Northeast,Not working,Full-time,7
+11318,45126.7701,41,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,West,Working part-time,Part-time,8
+11320,22821.798,22,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,9
+11331,88732.6474,21,Male,Other,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,Northeast,Working part-time,Full-time,7
+11339,68574.9802,18,Male,Hispanic,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working part-time,Full-time,5
+11374,21369.1931,22,Female,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working part-time,Full-time,7
+11404,19879.4568,23,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,South,Working full-time,Full-time,8
+11407,30433.6069,49,Female,Hispanic,No high school diploma or GED,"Less than $10,000",Metro,West,Working part-time,Part-time,6
+11429,20301.3285,26,Female,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Working part-time,Full-time,7
+11440,25590.4914,29,Female,White,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Midwest,Not working,Full-time,5
+11449,32891.2537,36,Female,Black,High school graduate (high school diploma or the equivalent GED),"$25,000 to $49,999",Metro,South,Working full-time,Part-time,8
+11453,17999.8973,27,Male,White,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Part-time,8
+11475,26763.8187,20,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Northeast,Working part-time,Full-time,8
+11492,51364.1903,18,Female,Hispanic,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Midwest,Not working,Full-time,7
+11497,43125.2355,20,Male,White,Some college or Associate's degree,"$150,000 or more",Metro,Midwest,Not working,Full-time,6
+11530,27506.4562,25,Male,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,6
+11543,30027.7952,26,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,South,Not working,Full-time,8
+11559,4975.8327,41,Male,Other,Bachelor's degree or higher,"$100,000 to $149,999",Non-Metro,South,Working full-time,Full-time,7
+11578,28545.3752,23,Female,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,Northeast,Not working,Full-time,5
+11596,34027.5749,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$10,000 to $24,999",Metro,Northeast,Working full-time,Full-time,10
+11600,34826.3221,42,Female,Black,High school graduate (high school diploma or the equivalent GED),"$50,000 to $74,999",Metro,Midwest,Working full-time,Part-time,7
+11604,22986.9647,25,Female,White,Bachelor's degree or higher,"$75,000 to $99,999",Metro,South,Not working,Part-time,7
+11605,18771.6708,27,Male,Hispanic,Bachelor's degree or higher,"$50,000 to $74,999",Metro,West,Working full-time,Full-time,7
+11613,16004.3448,40,Male,Hispanic,Bachelor's degree or higher,"$100,000 to $149,999",Metro,West,Working full-time,Full-time,7
+11624,68367.5584,18,Male,White,No high school diploma or GED,"$100,000 to $149,999",Metro,South,Working part-time,Full-time,9
+11632,12116.3854,46,Male,White,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Working part-time,Full-time,3
+11640,62410.7535,19,Male,White,High school graduate (high school diploma or the equivalent GED),"$150,000 or more",Metro,Midwest,Not working,Full-time,8
+11643,25976.0705,31,Male,White,Bachelor's degree or higher,"$150,000 or more",Non-Metro,West,Not working,Full-time,9
+11646,35658.131,23,Male,Black,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,7
+11647,19684.1078,25,Female,White,Bachelor's degree or higher,"$25,000 to $49,999",Metro,Northeast,Working full-time,Full-time,0
+11670,23631.7925,29,Female,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working full-time,Part-time,5
+11683,27029.4281,29,Female,White,Some college or Associate's degree,"$50,000 to $74,999",Metro,South,Working full-time,Part-time,5
+11700,16864.8504,40,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,Midwest,Working part-time,Full-time,5
+11701,36981.9743,18,Female,White,High school graduate (high school diploma or the equivalent GED),"$100,000 to $149,999",Metro,South,Working part-time,Full-time,7
+11719,25978.1043,19,Male,White,Some college or Associate's degree,"$25,000 to $49,999",Metro,South,Working part-time,Full-time,6
+11734,29732.7219,24,Male,White,Bachelor's degree or higher,"$150,000 or more",Metro,Northeast,Working full-time,Full-time,5
+11752,24268.4195,21,Male,Hispanic,Some college or Associate's degree,"$10,000 to $24,999",Metro,West,Not working,Full-time,3
