@@ -1,0 +1,38 @@
+class Dataset {
+    load() {
+        this.table = loadTable("data/well_being.csv", "csv", "header");
+    }
+
+    prepare() {
+        this._sortByWellBeing();
+        this._computeUniques();
+    }
+
+    get(row, column) {
+        return this.table.get(this.sortedIndexes[row], column);
+    }
+
+    printShape() {
+        console.log(`Data shape : ${this.table.rows.length} rows, ${this.table.columns.length} columns`);
+    }
+
+    _sortByWellBeing() {
+        let wellBeingPlusIndex = this.table.getColumn(
+            this.table.columns.indexOf("B10")
+        ).map((value, index) => {
+            return { value, index };
+        });
+
+        wellBeingPlusIndex.sort((a, b) => a.value - b.value);
+
+        this.sortedIndexes = wellBeingPlusIndex.map((obj) => obj.index);
+    }
+
+    _computeUniques() {
+        this.uniques = {};
+
+        for (const columnName of this.table.columns) {
+            this.uniques[columnName] = new Set(this.table.getColumn(columnName));
+        }
+    }
+}

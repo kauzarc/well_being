@@ -3,34 +3,15 @@
 const CANVAS_WIDTH = 1000;
 const CANVAS_HEIGHT = 500;
 
-let table;
+const data = new Dataset();
 function preload() {
-    table = loadTable("data/well_being.csv", "csv", "header");
-}
-
-let sortedIndexes;
-function sortTableByWellBeing() {
-    let wellBeingPlusIndex = table.getColumn(table.columns.indexOf("B10")).map((value, index) => {
-        return { value, index };
-    });
-
-    wellBeingPlusIndex.sort((a, b) => a.value - b.value);
-
-    sortedIndexes = wellBeingPlusIndex.map((obj) => obj.index);
-}
-
-const tableUniques = {};
-function computeUniques() {
-    for (const columnName of table.columns) {
-        tableUniques[columnName] = new Set(table.getColumn(columnName));
-    }
+    data.load();
 }
 
 function setup() {
-    console.log(`Data shape : ${table.rows.length} rows, ${table.columns.length} columns`);
-    sortTableByWellBeing();
-    computeUniques();
-    console.log(tableUniques);
+    data.printShape();
+    data.prepare();
+
     createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
 }
 
@@ -62,11 +43,10 @@ function crowd(x, y, w, h) {
 
     const i2ij = (i) => { return { i: i % rowNb, j: Math.floor(i / rowNb) } };
 
-    for (let i = 0; i < table.rows.length; ++i) {
+    for (let i = 0; i < data.table.rows.length; ++i) {
         const ij = i2ij(i);
-        const tableIndex = sortedIndexes[i];
 
-        const wellBeing = +table.get(tableIndex, table.columns.indexOf("B10"));
+        const wellBeing = +data.get(i, data.table.columns.indexOf("B10"));
 
         const peopleColor = wellBeingColor(wellBeing);
 
