@@ -241,7 +241,7 @@ function menu(g) {
 
   // draw the different categories*
   g.text("Age", marginX, marginY);
-  selectAge.position( 4 * CANVAS_WIDTH / 5 + spaceMargin + marginX, 45 + marginY + titleTextSize);  
+  selectAge.position( 4 * CANVAS_WIDTH / 5 + spaceMargin + marginX, 280 + marginY + titleTextSize);  
   g.line(marginX, marginY + titleTextSize, g.width - marginX, marginY + titleTextSize);
   g.text("Gender", marginX, marginY * 2);
   g.line(marginX, marginY * 2 + titleTextSize, g.width - marginX, marginY * 2 + titleTextSize);
@@ -252,7 +252,7 @@ function menu(g) {
       maxLenGender = uniqueGenders[i].length;
     }
   }
-  selectGender.position( (4 * CANVAS_WIDTH / 5 + spaceMargin + marginX) - (maxLenGender-5) * 6, 45 + marginY * 2 + titleTextSize);
+  selectGender.position( (4 * CANVAS_WIDTH / 5 + spaceMargin + marginX) - (maxLenGender-5) * 6, 280 + marginY * 2 + titleTextSize);
   g.text("Ethnicity", marginX, marginY * 3);
   g.line(marginX, marginY * 3 + titleTextSize, g.width - marginX, marginY * 3 + titleTextSize);
   // get the length of the longest string in the selectRace selector
@@ -262,8 +262,7 @@ function menu(g) {
       maxLenRace = uniqueRaces[i].length
     }
   }
-  selectRace.position( (4 * CANVAS_WIDTH / 5 + spaceMargin + marginX) - (maxLenRace-5) * 6, 45 + marginY * 3 + titleTextSize);
-
+  selectRace.position( (4 * CANVAS_WIDTH / 5 + spaceMargin + marginX) - (maxLenRace-5) * 6, 280 + marginY * 3 + titleTextSize);
   g.pop();
 }
 
