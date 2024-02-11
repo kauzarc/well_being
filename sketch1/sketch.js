@@ -29,3 +29,11 @@ function draw() {
     colorScale.draw();
     menu.draw();
 }
+
+function mouseClicked() {
+    for (const menuField of menu.fields) {
+        if (menuField.mouseOn()) {
+            console.log(menuField.title);
+        }
+    }
+}
