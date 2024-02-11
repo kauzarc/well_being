@@ -1,10 +1,22 @@
-class Person {
-    constructor(data, x, y, w, h) {
-        this.data = data;
+class VisualComponent {
+    constructor(x, y, w, h) {
         this.x = x;
         this.y = y;
         this.w = w;
         this.h = h;
+    }
+
+    draw() {
+        fill(255);
+        stroke(255);
+        rect(this.x, this.y, this.w, this.h);
+    }
+}
+
+class Person extends VisualComponent {
+    constructor(data, x, y, w, h) {
+        super(x, y, w, h);
+        this.data = data;
     }
 
     draw() {
@@ -31,12 +43,9 @@ class Person {
     }
 }
 
-class Crowd {
+class Crowd extends VisualComponent {
     constructor(dataset, x, y, w, h) {
-        this.x = x;
-        this.y = y;
-        this.w = w;
-        this.h = h;
+        super(x, y, w, h);
 
         const rowNb = 23;
         const columnNb = 31;
