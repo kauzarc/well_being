@@ -4,28 +4,44 @@ class Menu extends VisualComponent {
     constructor(dataset, x, y, w, h) {
         super(x, y, w, h);
 
-        this.fields = dataset.uniques;
+        const fieldNb = Object.keys(dataset.uniques).length;
+        const fieldHeight = h / fieldNb;
+
+        this.fields = [];
+        let i = 0;
+        for (const [key, value] of Object.entries(dataset.uniques)) {
+            this.fields.push(new MenuField(
+                columnPrettyName[key], value,
+                x, y + i * fieldHeight, w, fieldHeight
+            ));
+
+            ++i;
+        }
     }
 
     draw() {
         fill(0);
         stroke(255);
-
+        
         rect(this.x, this.y, this.w, this.h);
 
-        const titleTextSize = this.h / 30;
+        for (const field of this.fields) {
+            field.draw();
+        }
+    }
+}
 
+class MenuField extends VisualComponent {
+    constructor(title, options, x, y, w, h) {
+        super(x, y, w, h);
+
+        this.title = title;
+        this.options = options;
+    }
+
+    draw() {
         fill(255);
-        textSize(titleTextSize);
-
-        text("Gender", this.x, this.y + titleTextSize);
-        text("Male - Female", this.x, this.y + 2 * titleTextSize);
-
-        text("Ethnicity", this.x, this.y + 4 * titleTextSize);
-        text("White - Black - Hispanic - Other", this.x, this.y + 5 * titleTextSize);
-
-        text("Household Income", this.x, this.y + 7 * titleTextSize);
-        text("Less than $10,000 - ...", this.x, this.y + 8 * titleTextSize);
+        text(this.title, this.x, this.y + this.h);
     }
 }
 

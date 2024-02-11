@@ -1,5 +1,20 @@
 "use strict";
 
+const columnPrettyName = {
+    CaseID: "ID",
+    weight_pop: "Weight",
+    ppage: "Age",
+    ppgender: "Gender",
+    ppethm: "Ethnicity",
+    ppeducat: "Education",
+    ppinc7: "Household Income",
+    ppmsacat: "MSA Status",
+    ppreg4: "Region",
+    ppemploy: "Employment Status",
+    D1G: "Student status",
+    B10: "Well being"
+};
+
 class Dataset {
     load() {
         this.table = loadTable("data/well_being.csv", "csv", "header");

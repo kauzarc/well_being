@@ -13,6 +13,13 @@ class VisualComponent {
         stroke(255);
         rect(this.x, this.y, this.w, this.h);
     }
+
+    mouseOn() {
+        return mouseX > this.x &&
+            mouseX < this.x + this.w &&
+            mouseY > this.y &&
+            mouseY < this.y + this.h;
+    }
 }
 
 class Person extends VisualComponent {
@@ -22,12 +29,7 @@ class Person extends VisualComponent {
     }
 
     draw() {
-        if (
-            mouseX > this.x &&
-            mouseX < this.x + this.w &&
-            mouseY > this.y &&
-            mouseY < this.y + this.h
-        ) {
+        if (this.mouseOn()) {
             stroke(255);
             console.log(this.data.getString("ppage"), this.data.getString("ppgender"));
         } else {
@@ -86,7 +88,7 @@ class Crowd extends VisualComponent {
         }
     }
 
-    _i2ij(i) {
+    static i2ij(i) {
         return { i: i % rowNb, j: Math.floor(i / rowNb) };
     }
 }
