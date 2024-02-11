@@ -1,3 +1,5 @@
+"use strict";
+
 class VisualComponent {
     constructor(x, y, w, h) {
         this.x = x;

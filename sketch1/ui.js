@@ -1,3 +1,5 @@
+"use strict";
+
 class Menu extends VisualComponent {
     constructor(dataset, x, y, w, h) {
         super(x, y, w, h);

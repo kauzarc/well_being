@@ -1,3 +1,5 @@
+"use strict";
+
 class Dataset {
     load() {
         this.table = loadTable("data/well_being.csv", "csv", "header");
