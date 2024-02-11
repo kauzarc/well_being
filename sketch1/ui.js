@@ -3,19 +3,19 @@
 class Menu extends VisualComponent {
     constructor(dataset, x, y, w, h) {
         super(x, y, w, h);
+
+        this.fields = dataset.uniques;
     }
 
     draw() {
-        const color = 255;
-
         fill(0);
-        stroke(color);
+        stroke(255);
 
         rect(this.x, this.y, this.w, this.h);
 
-        const titleTextSize = this.h / 40;
+        const titleTextSize = this.h / 30;
 
-        fill(color);
+        fill(255);
         textSize(titleTextSize);
 
         text("Gender", this.x, this.y + titleTextSize);
@@ -24,7 +24,8 @@ class Menu extends VisualComponent {
         text("Ethnicity", this.x, this.y + 4 * titleTextSize);
         text("White - Black - Hispanic - Other", this.x, this.y + 5 * titleTextSize);
 
-        text("...", this.x, this.y + 7 * titleTextSize);
+        text("Household Income", this.x, this.y + 7 * titleTextSize);
+        text("Less than $10,000 - ...", this.x, this.y + 8 * titleTextSize);
     }
 }
 

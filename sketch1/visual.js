@@ -22,9 +22,20 @@ class Person extends VisualComponent {
     }
 
     draw() {
+        if (
+            mouseX > this.x &&
+            mouseX < this.x + this.w &&
+            mouseY > this.y &&
+            mouseY < this.y + this.h
+        ) {
+            stroke(255);
+            console.log(this.data.getString("ppage"), this.data.getString("ppgender"));
+        } else {
+            stroke(0);
+        }
+
         const color = Person.wellBeingColor(this.data.getNum("B10"));
         fill(color);
-        stroke(color);
 
         const centerX = this.x + this.w / 2;
         const centerY = this.y + this.h / 2;
