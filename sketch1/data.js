@@ -4,12 +4,17 @@ class Dataset {
     }
 
     prepare() {
+        this.length = this.table.rows.length;
         this._sortByWellBeing();
         this._computeUniques();
     }
 
     get(row, column) {
         return this.table.get(this.sortedIndexes[row], column);
+    }
+
+    getRow(row) {
+        return this.table.getRow(this.sortedIndexes[row]);
     }
 
     printShape() {
