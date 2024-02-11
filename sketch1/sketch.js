@@ -9,11 +9,13 @@ function preload() {
 }
 
 let crowd = null;
+let colorScale = null;
 function setup() {
     data.printShape();
     data.prepare();
 
     crowd = new Crowd(data, 0, 0, 4 * CANVAS_WIDTH / 5, CANVAS_HEIGHT);
+    colorScale = new ColorScale(4 * CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5, CANVAS_WIDTH / 5, CANVAS_HEIGHT / 5);
 
     createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
 }
@@ -41,26 +43,11 @@ function menu(x, y, w, h) {
     text("...", x, y + 7 * titleTextSize);
 }
 
-// function colorScale(x, y, w, h) {
-//     fill(255);
-//     textSize(w / 11);
-//     text("0", x, y + h / 3);
-//     text("10", x + w - w / 11, y + h / 3);
-
-//     text("Well Being", x + 3 * w / 11, y + h / 3);
-
-//     for (let i = 0; i <= 11; ++i) {
-//         fill(wellBeingColor(i));
-//         rect(x + i * w / 11, y + h / 2, w / 11, h / 2);
-//     }
-// }
-
 function draw() {
     background(0);
 
     crowd.draw();
-
+    colorScale.draw();
 
     menu(4 * CANVAS_WIDTH / 5, 0, CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5);
-    // colorScale(4 * CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5, CANVAS_WIDTH / 5, CANVAS_HEIGHT / 5);
 }

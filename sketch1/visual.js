@@ -8,7 +8,7 @@ class Person {
     }
 
     draw() {
-        const color = this._wellBeingColor(this.data.getNum("B10"));
+        const color = Person.wellBeingColor(this.data.getNum("B10"));
         fill(color);
         stroke(color);
 
@@ -21,7 +21,7 @@ class Person {
         rect(this.x, centerY - bodyHeight / 2 + headRadius, this.w, bodyHeight, headRadius);
     }
 
-    _wellBeingColor(wellBeing) {
+    static wellBeingColor(wellBeing) {
         return color(
             255 - (wellBeing * 255 / 10),
             (wellBeing * 255 / 10),
