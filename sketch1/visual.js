@@ -30,16 +30,14 @@ class Person extends VisualComponent {
     }
 
     draw() {
+        stroke(this.mouseOn() ? 255 : 0);
 
-        if (this.mouseOn()) {
-            stroke(255);
-            console.log(this.data.getString("ppage"), this.data.getString("ppgender"));
-        } else {
-            stroke(0);
-        }
-
-        const color = Person.wellBeingColor(this.data.getNum("B10"),this.show);
-        fill(color);
+        const fadedWhite = color(255, 255, 255, 0.25 * 255);
+        fill(
+            this.show ?
+                Person.wellBeingColor(this.data.getNum("B10")) :
+                fadedWhite
+        );
 
         const centerX = this.x + this.w / 2;
         const centerY = this.y + this.h / 2;
@@ -50,33 +48,24 @@ class Person extends VisualComponent {
         rect(this.x, centerY - bodyHeight / 2 + headRadius, this.w, bodyHeight, headRadius);
     }
 
-    static wellBeingColor(wellBeing,show) {
-        if (!show) {
-            // make it less visible
-            return color(255, 255, 255, 0.25 * 255);
-        } else {
-            return color(
-                255 - (wellBeing * 255 / 10),
-                (wellBeing * 255 / 10),
-                0,
-                0.75 * 255
-            );
-        }
+    static wellBeingColor(wellBeing) {
+        return color(
+            255 - (wellBeing * 255 / 10),
+            (wellBeing * 255 / 10),
+            0,
+            0.75 * 255
+        );
     }
 
     filter(filters) {
-        let changed = false;
-        for (const [col,val] of Object.entries(filters)) {
-            for (const [col2,val2] of Object.entries(this.data.obj)) {
-                if (col == col2 && val != val2) {
-                    this.show = false;
-                    changed = true;
-                }
+        for (const [columnName, value] of Object.entries(filters)) {
+            if (this.data.get(columnName) != value) {
+                this.show = false;
+                return;
             }
         }
-        if (!changed) {
-            this.show = true;
-        }
+
+        this.show = true;
     }
 }
 
@@ -90,15 +79,17 @@ class Crowd extends VisualComponent {
         const columnsWidth = this.w / columnNb;
         const rowsHeight = this.h / rowNb;
 
+        const paddingSize = 1 / 8;
+
         this.persons = [];
         for (let j = 0; j < columnNb; ++j) {
             for (let i = 0; (i < rowNb) && (i + j * rowNb < dataset.length); ++i) {
                 this.persons.push(new Person(
                     dataset.getRow(i + j * rowNb),
-                    this.x + columnsWidth * j + 1 / 8 * columnsWidth,
-                    this.y + rowsHeight * i + 1 / 8 * rowsHeight,
-                    3 / 4 * columnsWidth,
-                    3 / 4 * rowsHeight
+                    this.x + columnsWidth * j + paddingSize * columnsWidth,
+                    this.y + rowsHeight * i + paddingSize * rowsHeight,
+                    (1 - 2 * paddingSize) * columnsWidth,
+                    (1 - 2 * paddingSize) * rowsHeight
                 ));
             }
         }
@@ -115,7 +106,6 @@ class Crowd extends VisualComponent {
     }
 
     filter(filters) {
-        // call the filter function of each person
         for (const person of this.persons) {
             person.filter(filters);
         }
