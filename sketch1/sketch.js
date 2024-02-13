@@ -31,9 +31,20 @@ function draw() {
 }
 
 function mouseClicked() {
+    // get the values of the menu fields if it's not NaN
+    // and filter the crowd
+    let filters = {};
     for (const menuField of menu.fields) {
         if (menuField.mouseOn()) {
-            console.log(menuField.title);
+            // console.log(menuField.title);
+            menuField.update();
+        }
+        if (menuField.options[menuField.index] != "NaN") {
+            filters[menuField.key] = menuField.options[menuField.index];
         }
     }
+    
+    // console.log(filters);
+    // Once we got the full list of filters, we can filter the crowd
+    crowd.filter(filters);
 }
