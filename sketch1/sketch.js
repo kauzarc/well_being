@@ -17,7 +17,7 @@ function setup() {
 
     crowd = new Crowd(data, 0, 0, 4 * CANVAS_WIDTH / 5, CANVAS_HEIGHT);
     colorScale = new ColorScale(4 * CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5, CANVAS_WIDTH / 5, CANVAS_HEIGHT / 5);
-    menu = new Menu(data, 4 * CANVAS_WIDTH / 5, 0, CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5);
+    menu = new Menu(data, crowd, 4 * CANVAS_WIDTH / 5, 0, CANVAS_WIDTH / 5, 4 * CANVAS_HEIGHT / 5);
 
     createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
 }
@@ -31,20 +31,5 @@ function draw() {
 }
 
 function mouseClicked() {
-    // get the values of the menu fields if it's not NaN
-    // and filter the crowd
-    let filters = {};
-    for (const menuField of menu.fields) {
-        if (menuField.mouseOn()) {
-            // console.log(menuField.title);
-            menuField.update();
-        }
-        if (menuField.options[menuField.index] != "NaN") {
-            filters[menuField.key] = menuField.options[menuField.index];
-        }
-    }
-    
-    // console.log(filters);
-    // Once we got the full list of filters, we can filter the crowd
-    crowd.filter(filters);
+    menu.mouseClicked();
 }
