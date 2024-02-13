@@ -9,9 +9,10 @@ class Menu extends VisualComponent {
 
         this.fields = [];
         let i = 0;
+        let ind = 0;
         for (const [key, value] of Object.entries(dataset.uniques)) {
             this.fields.push(new MenuField(
-                columnPrettyName[key], value,
+                columnPrettyName[key], value, ind, key,
                 x, y + i * fieldHeight, w, fieldHeight
             ));
 
@@ -32,16 +33,25 @@ class Menu extends VisualComponent {
 }
 
 class MenuField extends VisualComponent {
-    constructor(title, options, x, y, w, h) {
+    constructor(title, options, index, key, x, y, w, h) {
         super(x, y, w, h);
 
         this.title = title;
-        this.options = options;
+        // transform the options set in array and add "NaN" as an option
+        this.options = ["NaN"].concat(Array.from(options));
+
+        this.index = index;
+        this.key = key;
     }
 
     draw() {
         fill(255);
-        text(this.title, this.x, this.y + this.h);
+        text(this.title + " : " + this.options[this.index], this.x, this.y + this.h);
+    }
+
+    update() {
+        // called when mouse is clicked and on this menufield
+        this.index = (this.index + 1) % this.options.length;
     }
 }
 
@@ -60,7 +70,7 @@ class ColorScale extends VisualComponent {
 
         stroke(255);
         for (let i = 0; i <= 11; ++i) {
-            fill(Person.wellBeingColor(i));
+            fill(Person.wellBeingColor(i,true));
             rect(
                 this.x + i * this.w / 11,
                 this.y + this.h / 2,
