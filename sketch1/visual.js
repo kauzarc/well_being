@@ -110,4 +110,12 @@ class Crowd extends VisualComponent {
             person.filter(filters);
         }
     }
+
+    mouseOnPerson() {
+        for (const person of this.persons) {
+            if (person.mouseOn()) {
+                return person;
+            }
+        }
+    }
 }

@@ -15,9 +15,26 @@ const columnPrettyName = {
     B10: "Well being"
 };
 
+
+const columnProject = {
+    ppagecat: "Age", 
+    ppgender: "Gender",
+    ppethm: "Ethnicity",
+    ppreg4: "Region",
+    ppmarit5: "MSA Status",
+    ppeducat: "Education",
+    ppemploy: "Employment Status",
+    D1G: "Student Status",
+    SL1: "Student Loan",
+    SL7: "Repayment of Student Loans", 
+    ED5: "Financial Benefits",
+    B10: "Well being"
+};
+
 class Dataset {
     load() {
-        this.table = loadTable("data/well_being.csv", "csv", "header");
+        // this.table = loadTable("data/well_being.csv", "csv", "header");
+        this.table = loadTable("data/project.csv", "csv", "header");
     }
 
     prepare() {
