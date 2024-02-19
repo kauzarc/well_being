@@ -85,28 +85,44 @@ class MenuField extends VisualComponent {
 }
 
 class ColorScale extends VisualComponent {
-    constructor(x, y, w, h) {
+    constructor(crowd, x, y, w, h) {
         super(x, y, w, h);
+        this.crowd = crowd;
     }
 
     draw() {
-        fill(255);
-        textSize(this.w / 11);
-        text("0", this.x, this.y + this.h / 3);
-        text("10", this.x + this.w - this.w / 11, this.y + this.h / 3);
+        const offset = 25;
 
-        text("Well Being", this.x + 3 * this.w / 11, this.y + this.h / 3);
+        fill(255);
+        textSize(this.w / 10);
+        text("0", this.x, this.y + this.h / 3);
+        text("10", 50 + this.x + this.w - this.w / 10, this.y + this.h / 3);
+
+        text("Well Being", this.x + 3 * this.w / 10, this.y + this.h / 3);
 
         stroke(255);
-        for (let i = 0; i <= 11; ++i) {
+        for (let i = 0; i <= 9; ++i) {
             fill(Person.wellBeingColor(i));
             rect(
-                this.x + i * this.w / 11,
+                offset + this.x + i * this.w / 10,
                 this.y + this.h / 2,
-                this.w / 11,
+                this.w / 10,
                 this.h / 2
             );
         }
+
+        
+        const averageWellBeing = this.crowd.averageWellBeing();
+        fill(0);
+        stroke(255);
+        beginShape();
+        vertex(offset + this.x + averageWellBeing * this.w / 10, this.y + this.h / 2);
+        vertex(offset + this.x + averageWellBeing * this.w / 10 + 10, this.y + this.h / 2 + 25);
+        vertex(offset + this.x + averageWellBeing * this.w / 10, this.y + this.h / 2 + 50);
+        vertex(offset + this.x + averageWellBeing * this.w / 10 - 10, this.y + this.h / 2 + 25);
+        endShape(CLOSE);
+        
+
     }
 }
 

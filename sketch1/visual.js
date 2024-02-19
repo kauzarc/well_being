@@ -118,4 +118,19 @@ class Crowd extends VisualComponent {
             }
         }
     }
+
+    averageWellBeing() {
+        let sum = 0;
+        let count = 0;
+        for (const person of this.persons) {
+            if (person.show) {
+                sum += person.data.getNum("B10");
+                ++count;
+            }
+        }
+
+        return sum / count;
+    }
+
+
 }
