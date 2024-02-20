@@ -3,6 +3,8 @@
 const CANVAS_WIDTH = 1500;
 const CANVAS_HEIGHT = 750;
 
+const whiteTheme = false;
+
 const data = new Dataset();
 function preload() {
     data.load();
@@ -26,7 +28,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(whiteTheme ? 255 : 0);
 
     crowd.draw();
     colorScale.draw();

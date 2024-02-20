@@ -9,8 +9,8 @@ class VisualComponent {
     }
 
     draw() {
-        fill(255);
-        stroke(255);
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
         rect(this.x, this.y, this.w, this.h);
     }
 
@@ -30,7 +30,7 @@ class Person extends VisualComponent {
     }
 
     draw() {
-        stroke(this.mouseOn() ? 255 : 0);
+        stroke(this.mouseOn() ? whiteTheme ? 0 : 255 : whiteTheme ? 255 : 0);
 
         const fadedWhite = color(255, 255, 255, 0.25 * 255);
         fill(

@@ -26,12 +26,12 @@ class Menu extends VisualComponent {
     }
 
     draw() {
-        fill(0);
-        stroke(255);
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
 
         rect(this.x, this.y, this.w, this.h);
 
-        fill(255);
+        fill(whiteTheme ? 0 : 255);
         textSize(this.fieldHeight / 2);
         text(this.title, this.x, this.y + this.fieldHeight / 2);
         line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
@@ -69,7 +69,7 @@ class MenuField extends VisualComponent {
     }
 
     draw() {
-        fill(255);
+        fill(whiteTheme ? 0 : 255);
         textSize(this.h / 2);
         text(" " + columnProject[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
         // text(columnPrettyName[this.key] + " : " + this.options[this.index], this.x, this.y + this.h);
@@ -93,14 +93,14 @@ class ColorScale extends VisualComponent {
     draw() {
         const offset = 25;
 
-        fill(255);
+        fill(whiteTheme ? 0 : 255);
         textSize(this.w / 10);
         text("0", this.x, this.y + this.h / 3);
         text("10", 50 + this.x + this.w - this.w / 10, this.y + this.h / 3);
 
         text("Well Being", this.x + 3 * this.w / 10, this.y + this.h / 3);
 
-        stroke(255);
+        stroke(whiteTheme ? 0 : 255);
         for (let i = 0; i <= 9; ++i) {
             fill(Person.wellBeingColor(i));
             rect(
@@ -113,8 +113,8 @@ class ColorScale extends VisualComponent {
 
         
         const averageWellBeing = this.crowd.averageWellBeing();
-        fill(0);
-        stroke(255);
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
         beginShape();
         vertex(offset + this.x + averageWellBeing * this.w / 10, this.y + this.h / 2);
         vertex(offset + this.x + averageWellBeing * this.w / 10 + 10, this.y + this.h / 2 + 25);
@@ -140,11 +140,11 @@ class MenuPerson extends VisualComponent {
     draw() {
         
 
-        fill(0);
-        stroke(255);
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
         rect(this.x, this.y, this.w, this.h);
 
-        fill(255);
+        fill(whiteTheme ? 0 : 255);
         textSize(this.fieldHeight / 2);
         text(this.title, this.x, this.y + this.fieldHeight / 2);
         line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
@@ -157,7 +157,7 @@ class MenuPerson extends VisualComponent {
                 if (key == "B10") {
                     continue;
                 }
-                fill(255);
+                fill(whiteTheme ? 0 : 255);
                 textSize(this.fieldHeight / 2);
                 text(" " + person.data.get(key), this.x, this.y + i * this.fieldHeight + this.fieldHeight / 2);
                 ++i;
