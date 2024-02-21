@@ -1,7 +1,7 @@
 "use strict";
 
 const columnPrettyName = {
-    ppagecat: "Age", 
+    ppagecat: "Age",
     ppgender: "Gender",
     ppethm: "Ethnicity",
     ppreg4: "Region",
@@ -10,7 +10,7 @@ const columnPrettyName = {
     ppemploy: "Employment Status",
     D1G: "Student Status",
     SL1: "Student Loan",
-    SL7: "Repayment of Student Loans", 
+    SL7: "Repayment of Student Loans",
     ED5: "Financial Benefits",
     B10: "Well being"
 };
@@ -23,6 +23,7 @@ class Dataset {
 
     prepare() {
         this.length = this.table.rows.length;
+        this.columns = this.table.columns;
         this._sortByWellBeing();
         this._computeUniques();
     }

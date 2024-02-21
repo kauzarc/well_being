@@ -134,7 +134,7 @@ class InfoPerson {
         this.w = w;
         this.h = h;
 
-        this.fieldNb = Object.keys(this.dataset.uniques).length;
+        this.fieldNb = Object.keys(this.dataset.uniques).length - 1;
         this.fieldHeight = this.h / this.fieldNb;
     }
 
@@ -142,23 +142,25 @@ class InfoPerson {
         const person = this.crowd.mouseOnPerson();
         if (!person) { return; }
 
+        const x = mouseX + this.w / 10;
+        const y = mouseY + this.h / 10;
+
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
-        rect(mouseX, mouseY, this.w, this.h);
+        rect(x, y, this.w, this.h);
 
         fill(whiteTheme ? 0 : 255);
         textSize(this.fieldHeight / 2);
 
-        let i = 1;
-        for (const [key, value] of Object.entries(this.dataset.uniques)) {
-            if (key == "B10") {
-                continue;
+        let i = 0;
+        for (const columnName of this.dataset.columns) {
+            if (columnName != "B10") {
+                fill(whiteTheme ? 0 : 255);
+                
+                textSize(this.fieldHeight / 2);
+                text(" " + person.data.get(columnName), x, y + i * this.fieldHeight + this.fieldHeight / 2);
             }
-            fill(whiteTheme ? 0 : 255);
-            textSize(this.fieldHeight / 2);
-            text(" " + person.data.get(key), mouseX, mouseY + i * this.fieldHeight + this.fieldHeight / 2);
             ++i;
         }
-
     }
 }
