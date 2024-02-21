@@ -4,6 +4,7 @@
 
 body {
     background-color: black;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,6 +14,7 @@ body {
 h1,
 h2 {
     color: white;
+    /* color: black; */
     font-family: sans-serif;
     max-width: 60vw;
     text-align: center;
@@ -20,6 +22,7 @@ h2 {
 
 p {
     color: white;
+    /* color: black; */
     font-family: sans-serif;
     max-width: 75vw;
 }

@@ -1,19 +1,24 @@
 "use strict";
 
 class Menu extends VisualComponent {
-    constructor(dataset, crowd, x, y, w, h) {
+    constructor(dataset, crowd, title, x, y, w, h) {
         super(x, y, w, h);
         this.crowd = crowd;
+        this.dataset = dataset;
+        this.title = title;
 
-        const fieldNb = Object.keys(dataset.uniques).length;
-        const fieldHeight = h / fieldNb;
+        this.fieldNb = Object.keys(dataset.uniques).length;
+        this.fieldHeight = h / this.fieldNb;
 
         this.fields = [];
-        let i = 0;
+        let i = 1;
         for (const [key, value] of Object.entries(dataset.uniques)) {
+            if (key == "B10") {
+                continue;
+            }
             this.fields.push(new MenuField(
                 key, value,
-                x, y + i * fieldHeight, w, fieldHeight
+                x, y + i * this.fieldHeight, w, this.fieldHeight
             ));
 
             ++i;
@@ -21,10 +26,15 @@ class Menu extends VisualComponent {
     }
 
     draw() {
-        fill(0);
-        stroke(255);
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
 
         rect(this.x, this.y, this.w, this.h);
+
+        fill(whiteTheme ? 0 : 255);
+        textSize(this.fieldHeight / 2);
+        text(this.title, this.x, this.y + this.fieldHeight / 2);
+        line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
 
         for (const field of this.fields) {
             field.draw();
@@ -59,8 +69,9 @@ class MenuField extends VisualComponent {
     }
 
     draw() {
-        fill(255);
-        text(columnPrettyName[this.key] + " : " + this.options[this.index], this.x, this.y + this.h);
+        fill(whiteTheme ? 0 : 255);
+        textSize(this.h / 2);
+        text(" " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
     }
 
     toggleOption() {
@@ -73,27 +84,83 @@ class MenuField extends VisualComponent {
 }
 
 class ColorScale extends VisualComponent {
-    constructor(x, y, w, h) {
+    constructor(crowd, x, y, w, h) {
         super(x, y, w, h);
+        this.crowd = crowd;
     }
 
     draw() {
-        fill(255);
-        textSize(this.w / 11);
+        const offset = 25;
+
+        fill(whiteTheme ? 0 : 255);
+        textSize(this.w / 10);
         text("0", this.x, this.y + this.h / 3);
-        text("10", this.x + this.w - this.w / 11, this.y + this.h / 3);
+        text("10", 50 + this.x + this.w - this.w / 10, this.y + this.h / 3);
 
-        text("Well Being", this.x + 3 * this.w / 11, this.y + this.h / 3);
+        text("Well Being", this.x + 3 * this.w / 10, this.y + this.h / 3);
 
-        stroke(255);
-        for (let i = 0; i <= 11; ++i) {
+        stroke(whiteTheme ? 0 : 255);
+        for (let i = 0; i <= 9; ++i) {
             fill(Person.wellBeingColor(i));
             rect(
-                this.x + i * this.w / 11,
+                offset + this.x + i * this.w / 10,
                 this.y + this.h / 2,
-                this.w / 11,
+                this.w / 10,
                 this.h / 2
             );
+        }
+
+        
+        const averageWellBeing = this.crowd.averageWellBeing();
+        const arrowBaseX = offset + this.x + averageWellBeing * this.w / 10;
+        const arrowBaseY = this.y + this.h / 2;
+
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
+        beginShape();
+        vertex(arrowBaseX, arrowBaseY);
+        vertex(arrowBaseX + 10, arrowBaseY + 25);
+        vertex(arrowBaseX, arrowBaseY + 50);
+        vertex(arrowBaseX - 10, arrowBaseY + 25);
+        endShape(CLOSE);
+    }
+}
+
+class InfoPerson extends VisualComponent {
+    constructor(dataset, crowd, title, x, y, w, h) {
+        super(x, y, w, h);
+        this.crowd = crowd;
+        this.dataset = dataset;
+        this.title = title;
+
+        this.fieldNb = Object.keys(this.dataset.uniques).length;
+        this.fieldHeight = this.h / this.fieldNb;
+    }
+
+    draw() {
+        fill(whiteTheme ? 255 : 0);
+        stroke(whiteTheme ? 0 : 255);
+        rect(this.x, this.y, this.w, this.h);
+
+        fill(whiteTheme ? 0 : 255);
+        textSize(this.fieldHeight / 2);
+        text(this.title, this.x, this.y + this.fieldHeight / 2);
+        line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
+
+        const person = this.crowd.mouseOnPerson();
+        if (person) {
+
+            let i = 1;
+            for (const [key, value] of Object.entries(this.dataset.uniques)) {
+                if (key == "B10") {
+                    continue;
+                }
+                fill(whiteTheme ? 0 : 255);
+                textSize(this.fieldHeight / 2);
+                text(" " + person.data.get(key), this.x, this.y + i * this.fieldHeight + this.fieldHeight / 2);
+                ++i;
+            }
+
         }
     }
 }

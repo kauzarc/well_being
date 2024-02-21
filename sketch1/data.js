@@ -1,23 +1,24 @@
 "use strict";
 
 const columnPrettyName = {
-    CaseID: "ID",
-    weight_pop: "Weight",
-    ppage: "Age",
+    ppagecat: "Age", 
     ppgender: "Gender",
     ppethm: "Ethnicity",
-    ppeducat: "Education",
-    ppinc7: "Household Income",
-    ppmsacat: "MSA Status",
     ppreg4: "Region",
+    ppmarit5: "MSA Status",
+    ppeducat: "Education",
     ppemploy: "Employment Status",
-    D1G: "Student status",
+    D1G: "Student Status",
+    SL1: "Student Loan",
+    SL7: "Repayment of Student Loans", 
+    ED5: "Financial Benefits",
     B10: "Well being"
 };
 
 class Dataset {
     load() {
-        this.table = loadTable("data/well_being.csv", "csv", "header");
+        // this.table = loadTable("data/well_being.csv", "csv", "header");
+        this.table = loadTable("data/project.csv", "csv", "header");
     }
 
     prepare() {
