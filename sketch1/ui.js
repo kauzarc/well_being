@@ -71,8 +71,7 @@ class MenuField extends VisualComponent {
     draw() {
         fill(whiteTheme ? 0 : 255);
         textSize(this.h / 2);
-        text(" " + columnProject[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
-        // text(columnPrettyName[this.key] + " : " + this.options[this.index], this.x, this.y + this.h);
+        text(" " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
     }
 
     toggleOption() {
@@ -113,20 +112,21 @@ class ColorScale extends VisualComponent {
 
         
         const averageWellBeing = this.crowd.averageWellBeing();
+        const arrowBaseX = offset + this.x + averageWellBeing * this.w / 10;
+        const arrowBaseY = this.y + this.h / 2;
+
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
         beginShape();
-        vertex(offset + this.x + averageWellBeing * this.w / 10, this.y + this.h / 2);
-        vertex(offset + this.x + averageWellBeing * this.w / 10 + 10, this.y + this.h / 2 + 25);
-        vertex(offset + this.x + averageWellBeing * this.w / 10, this.y + this.h / 2 + 50);
-        vertex(offset + this.x + averageWellBeing * this.w / 10 - 10, this.y + this.h / 2 + 25);
+        vertex(arrowBaseX, arrowBaseY);
+        vertex(arrowBaseX + 10, arrowBaseY + 25);
+        vertex(arrowBaseX, arrowBaseY + 50);
+        vertex(arrowBaseX - 10, arrowBaseY + 25);
         endShape(CLOSE);
-        
-
     }
 }
 
-class MenuPerson extends VisualComponent {
+class InfoPerson extends VisualComponent {
     constructor(dataset, crowd, title, x, y, w, h) {
         super(x, y, w, h);
         this.crowd = crowd;
@@ -138,8 +138,6 @@ class MenuPerson extends VisualComponent {
     }
 
     draw() {
-        
-
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
         rect(this.x, this.y, this.w, this.h);
@@ -150,7 +148,7 @@ class MenuPerson extends VisualComponent {
         line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
 
         const person = this.crowd.mouseOnPerson();
-        if (person != null) {
+        if (person) {
 
             let i = 1;
             for (const [key, value] of Object.entries(this.dataset.uniques)) {

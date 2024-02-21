@@ -26,15 +26,19 @@ class Person extends VisualComponent {
     constructor(data, x, y, w, h) {
         super(x, y, w, h);
         this.data = data;
-        this.show = true;
+        this.selected = true;
     }
 
     draw() {
-        stroke(this.mouseOn() ? whiteTheme ? 0 : 255 : whiteTheme ? 255 : 0);
+        if (whiteTheme) {
+            stroke(this.mouseOn() ? 0 : 255);
+        } else {
+            stroke(this.mouseOn() ? 255 : 0);
+        }
 
         const fadedWhite = color(255, 255, 255, 0.25 * 255);
         fill(
-            this.show ?
+            this.selected ?
                 Person.wellBeingColor(this.data.getNum("B10")) :
                 fadedWhite
         );
@@ -60,12 +64,12 @@ class Person extends VisualComponent {
     filter(filters) {
         for (const [columnName, value] of Object.entries(filters)) {
             if (this.data.get(columnName) != value) {
-                this.show = false;
+                this.selected = false;
                 return;
             }
         }
 
-        this.show = true;
+        this.selected = true;
     }
 }
 
@@ -123,7 +127,7 @@ class Crowd extends VisualComponent {
         let sum = 0;
         let count = 0;
         for (const person of this.persons) {
-            if (person.show) {
+            if (person.selected) {
                 sum += person.data.getNum("B10");
                 ++count;
             }

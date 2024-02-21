@@ -1,22 +1,6 @@
 "use strict";
 
 const columnPrettyName = {
-    CaseID: "ID",
-    weight_pop: "Weight",
-    ppage: "Age",
-    ppgender: "Gender",
-    ppethm: "Ethnicity",
-    ppeducat: "Education",
-    ppinc7: "Household Income",
-    ppmsacat: "MSA Status",
-    ppreg4: "Region",
-    ppemploy: "Employment Status",
-    D1G: "Student status",
-    B10: "Well being"
-};
-
-
-const columnProject = {
     ppagecat: "Age", 
     ppgender: "Gender",
     ppethm: "Ethnicity",
