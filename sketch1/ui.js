@@ -110,7 +110,7 @@ class ColorScale extends VisualComponent {
             );
         }
 
-        
+
         const averageWellBeing = this.crowd.averageWellBeing();
         const arrowBaseX = offset + this.x + averageWellBeing * this.w / 10;
         const arrowBaseY = this.y + this.h / 2;
@@ -126,41 +126,39 @@ class ColorScale extends VisualComponent {
     }
 }
 
-class InfoPerson extends VisualComponent {
-    constructor(dataset, crowd, title, x, y, w, h) {
-        super(x, y, w, h);
+class InfoPerson {
+    constructor(dataset, crowd, w, h) {
         this.crowd = crowd;
         this.dataset = dataset;
-        this.title = title;
+
+        this.w = w;
+        this.h = h;
 
         this.fieldNb = Object.keys(this.dataset.uniques).length;
         this.fieldHeight = this.h / this.fieldNb;
     }
 
     draw() {
+        const person = this.crowd.mouseOnPerson();
+        if (!person) { return; }
+
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
-        rect(this.x, this.y, this.w, this.h);
+        rect(mouseX, mouseY, this.w, this.h);
 
         fill(whiteTheme ? 0 : 255);
         textSize(this.fieldHeight / 2);
-        text(this.title, this.x, this.y + this.fieldHeight / 2);
-        line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
 
-        const person = this.crowd.mouseOnPerson();
-        if (person) {
-
-            let i = 1;
-            for (const [key, value] of Object.entries(this.dataset.uniques)) {
-                if (key == "B10") {
-                    continue;
-                }
-                fill(whiteTheme ? 0 : 255);
-                textSize(this.fieldHeight / 2);
-                text(" " + person.data.get(key), this.x, this.y + i * this.fieldHeight + this.fieldHeight / 2);
-                ++i;
+        let i = 1;
+        for (const [key, value] of Object.entries(this.dataset.uniques)) {
+            if (key == "B10") {
+                continue;
             }
-
+            fill(whiteTheme ? 0 : 255);
+            textSize(this.fieldHeight / 2);
+            text(" " + person.data.get(key), mouseX, mouseY + i * this.fieldHeight + this.fieldHeight / 2);
+            ++i;
         }
+
     }
 }
