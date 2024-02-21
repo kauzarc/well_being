@@ -49,7 +49,6 @@ class Menu extends VisualComponent {
                 field.toggleOption();
             }
 
-
             if (field.currentOption() != "Null") {
                 filters[field.key] = field.currentOption();
             }
@@ -71,7 +70,10 @@ class MenuField extends VisualComponent {
     draw() {
         fill(whiteTheme ? 0 : 255);
         textSize(this.h / 2);
-        text(" " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
+        text(
+            " " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]),
+            this.x, this.y + this.h / 2
+        );
     }
 
     toggleOption() {
@@ -142,8 +144,7 @@ class InfoPerson {
         const person = this.crowd.mouseOnPerson();
         if (!person) { return; }
 
-        const x = mouseX + this.w / 10;
-        const y = mouseY + this.h / 10;
+        const { x, y } = this._position();
 
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
@@ -156,11 +157,23 @@ class InfoPerson {
         for (const columnName of this.dataset.columns) {
             if (columnName != "B10") {
                 fill(whiteTheme ? 0 : 255);
-                
+
                 textSize(this.fieldHeight / 2);
                 text(" " + person.data.get(columnName), x, y + i * this.fieldHeight + this.fieldHeight / 2);
+                ++i;
             }
-            ++i;
         }
+    }
+
+    _position() {
+        const rightX = mouseX + this.w;
+        const crowdRightX = this.crowd.x + this.crowd.w;
+        const x = rightX < crowdRightX ? mouseX : mouseX - this.w;
+
+        const bottomY = mouseY + this.h;
+        const crowdBottomY = this.crowd.y + this.crowd.h;
+        const y = bottomY < crowdBottomY ? mouseY : mouseY - this.h;
+
+        return { x, y };
     }
 }
