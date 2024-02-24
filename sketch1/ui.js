@@ -49,7 +49,6 @@ class Menu extends VisualComponent {
                 field.toggleOption();
             }
 
-
             if (field.currentOption() != "Null") {
                 filters[field.key] = field.currentOption();
             }
@@ -71,7 +70,10 @@ class MenuField extends VisualComponent {
     draw() {
         fill(whiteTheme ? 0 : 255);
         textSize(this.h / 2);
-        text(" " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]), this.x, this.y + this.h / 2);
+        text(
+            " " + columnPrettyName[this.key] + (this.options[this.index] == "Null" ? "" : " : " + this.options[this.index]),
+            this.x, this.y + this.h / 2
+        );
     }
 
     toggleOption() {
@@ -110,7 +112,7 @@ class ColorScale extends VisualComponent {
             );
         }
 
-        
+
         const averageWellBeing = this.crowd.averageWellBeing();
         const arrowBaseX = offset + this.x + averageWellBeing * this.w / 10;
         const arrowBaseY = this.y + this.h / 2;
@@ -126,41 +128,52 @@ class ColorScale extends VisualComponent {
     }
 }
 
-class InfoPerson extends VisualComponent {
-    constructor(dataset, crowd, title, x, y, w, h) {
-        super(x, y, w, h);
+class InfoPerson {
+    constructor(dataset, crowd, w, h) {
         this.crowd = crowd;
         this.dataset = dataset;
-        this.title = title;
 
-        this.fieldNb = Object.keys(this.dataset.uniques).length;
+        this.w = w;
+        this.h = h;
+
+        this.fieldNb = Object.keys(this.dataset.uniques).length - 1;
         this.fieldHeight = this.h / this.fieldNb;
     }
 
     draw() {
+        const person = this.crowd.mouseOnPerson();
+        if (!person) { return; }
+
+        const { x, y } = this._position();
+
         fill(whiteTheme ? 255 : 0);
         stroke(whiteTheme ? 0 : 255);
-        rect(this.x, this.y, this.w, this.h);
+        rect(x, y, this.w, this.h);
 
         fill(whiteTheme ? 0 : 255);
         textSize(this.fieldHeight / 2);
-        text(this.title, this.x, this.y + this.fieldHeight / 2);
-        line(this.x, this.y + this.fieldHeight, this.x + this.w, this.y + this.fieldHeight);
 
-        const person = this.crowd.mouseOnPerson();
-        if (person) {
-
-            let i = 1;
-            for (const [key, value] of Object.entries(this.dataset.uniques)) {
-                if (key == "B10") {
-                    continue;
-                }
+        let i = 0;
+        for (const columnName of this.dataset.columns) {
+            if (columnName != "B10") {
                 fill(whiteTheme ? 0 : 255);
+
                 textSize(this.fieldHeight / 2);
-                text(" " + person.data.get(key), this.x, this.y + i * this.fieldHeight + this.fieldHeight / 2);
+                text(" " + person.data.get(columnName), x, y + i * this.fieldHeight + this.fieldHeight / 2);
                 ++i;
             }
-
         }
+    }
+
+    _position() {
+        const rightX = mouseX + this.w;
+        const crowdRightX = this.crowd.x + this.crowd.w;
+        const x = rightX < crowdRightX ? mouseX : mouseX - this.w;
+
+        const bottomY = mouseY + this.h;
+        const crowdBottomY = this.crowd.y + this.crowd.h;
+        const y = bottomY < crowdBottomY ? mouseY : mouseY - this.h;
+
+        return { x, y };
     }
 }
